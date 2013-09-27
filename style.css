@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #016da0;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #004a6e;
+    overflow: auto; 
+}
+
+nav {
+    float: right;
+}
+
+#logo {
+    float: left;
+}
+
+#left {
+    float: left;
+    width: 30%;
+}
+
+#right {
+    float: left;
+    width: 70%;
+}
+
+.cell {
+    background-color: #1f80a0; 
+    border: 2px solid green;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+section {
+    background-color: #b89ee7;
+    overflow: auto;
+}
+
+footer {
+    background-color: #004a6e; 
+    padding: 20px;
+    text-align: center; 
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    color: blue;
+}
+
+li {
+    list-style: none;
+}
+
+.post-button {
+    margin: 10px; 
+    color: gray;
+    text-decoration: none;
+    background: #016da0;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cell a {
+    color: white;
+}
